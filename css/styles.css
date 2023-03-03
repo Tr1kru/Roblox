@@ -1,0 +1,221 @@
+/* CSS Document */
+html, body, header, h1, h2, blockquote, table, hnav, fnav, main, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	background-color: lightskyblue;
+}
+
+main {
+	display: block;
+}
+main h1 {
+	font-size: 3em;	
+	background-color: black;
+	color: lightskyblue;
+	margin-right: 25%;
+	padding: 20px;
+	float: top;
+}
+
+header h1 {
+	
+	font-size: 3em;	
+	background-color: lightskyblue;
+	color: black;
+	margin-right: 25%;
+	padding: 20px;
+	float: top;
+
+}
+
+main h2 {
+	font-size: 1em;
+	background-color: black;
+	color: lightskyblue;
+}
+
+main h3 p {
+	font-size: 1em;
+	background-color: black;
+	color: lightskyblue;
+	margin-right: 30%;
+	padding: 10px;
+	float: right;
+}
+
+
+img {
+	height: 300px;
+	width: 600px;
+	float: left;
+}
+
+header  {
+	
+}
+
+p {
+	font-size: 1em;
+	background-color: black;
+	color: lightskyblue;
+	margin-right: 30%;
+	padding: 10px;
+	float: left 10px;
+	display: block;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.font {
+	font-size: 1.8em;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: lightskyblue;
+	float: left;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+input {
+    height: 1.5em;
+	width: 15em;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: black;
+	color: lightskyblue;
+	border: 5px double black; 
+}
+
+.frmButton {
+	width: 10em;	
+}
+
+.frmButton:active {
+	background-color: lightskyblue;
+}
+
+blockquote {
+	
+}
+
+
+
+#container {
+	padding:  0;
+    margin: 10px auto;
+    width: 80%;
+    min-height: 500px;
+    font-size: 1.8em;
+}
+
+.hnav {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	background-color: black;
+	min-height: 50px;
+    color: blue;
+	border: 0;
+}
+
+.hnav a:hover {
+	color: white;
+}
+
+.hnav a:active {
+	color: lightskyblue;
+}
+
+.hnav a:link {
+	color: lightskyblue;
+}
+
+.hnav ul li {
+	color: lightskyblue;
+    display: inline-block;
+    list-style: none;
+    width: 15%;
+    background-color: black;
+    margin-top: .8%;
+	text-align: center;
+	margin-right: 15px;
+	padding: 10px 0 10px 0;
+}
+
+
+footer {
+	clear: both;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.fnav {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0;
+	background-color: lightskyblue;
+	min-height: 50px;
+    color: blue;
+	border: 0;
+}
+
+.fnav a:hover {
+	color: white;
+}
+
+.fnav a:active {
+	color: blue;
+}
+
+.fnav a:link {
+	color: lightskyblue;
+}
+
+.fnav ul li {
+	color: lightskyblue;
+    display: inline-block;
+    list-style: none;
+    width: 15%;
+    background-color: black;
+    margin-top: .8%;
+	text-align: center;
+	margin-right: 15px;
+	padding: 10px 0 10px 0;
+}
+
+footer p {
+	text-align: center;
+}
+
